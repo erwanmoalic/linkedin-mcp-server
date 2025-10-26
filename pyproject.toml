@@ -28,14 +28,3 @@ linkedin_mcp_server = ["py.typed"]
 
 [tool.uv.sources]
 linkedin-scraper = { git = "https://github.com/stickerdaniel/linkedin_scraper.git" }
-
-[project.optional-dependencies]
-dev = [
-    "aiohttp>=3.12.13",
-    "pre-commit>=4.2.0",
-    "pytest>=8.3.5",
-    "pytest-asyncio>=1.0.0",
-    "pytest-cov>=6.1.1",
-    "ruff>=0.11.11",
-    "ty>=0.0.1a12",
-]
